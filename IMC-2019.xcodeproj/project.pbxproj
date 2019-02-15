@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD2834F8221786D8005A5DB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2834F7221786D8005A5DB3 /* AppDelegate.swift */; };
+		FD2834FA221786D8005A5DB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2834F9221786D8005A5DB3 /* ViewController.swift */; };
+		FD2834FD221786D8005A5DB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD2834FB221786D8005A5DB3 /* Main.storyboard */; };
+		FD283500221786D8005A5DB3 /* IMC_2019.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD2834FE221786D8005A5DB3 /* IMC_2019.xcdatamodeld */; };
+		FD283502221786D8005A5DB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD283501221786D8005A5DB3 /* Assets.xcassets */; };
+		FD283505221786D8005A5DB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD283503221786D8005A5DB3 /* LaunchScreen.storyboard */; };
+		FD283510221786D8005A5DB3 /* IMC_2019Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD28350F221786D8005A5DB3 /* IMC_2019Tests.swift */; };
+		FD28351B221786D8005A5DB3 /* IMC_2019UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD28351A221786D8005A5DB3 /* IMC_2019UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD28350C221786D8005A5DB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD2834EC221786D8005A5DB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD2834F3221786D8005A5DB3;
+			remoteInfo = "IMC-2019";
+		};
+		FD283517221786D8005A5DB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD2834EC221786D8005A5DB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD2834F3221786D8005A5DB3;
+			remoteInfo = "IMC-2019";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD2834F4221786D8005A5DB3 /* IMC-2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IMC-2019.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD2834F7221786D8005A5DB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD2834F9221786D8005A5DB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD2834FC221786D8005A5DB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD2834FF221786D8005A5DB3 /* IMC_2019.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IMC_2019.xcdatamodel; sourceTree = "<group>"; };
+		FD283501221786D8005A5DB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD283504221786D8005A5DB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD283506221786D8005A5DB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD28350B221786D8005A5DB3 /* IMC-2019Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IMC-2019Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD28350F221786D8005A5DB3 /* IMC_2019Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMC_2019Tests.swift; sourceTree = "<group>"; };
+		FD283511221786D8005A5DB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD283516221786D8005A5DB3 /* IMC-2019UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IMC-2019UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD28351A221786D8005A5DB3 /* IMC_2019UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMC_2019UITests.swift; sourceTree = "<group>"; };
+		FD28351C221786D8005A5DB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD2834F1221786D8005A5DB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD283508221786D8005A5DB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD283513221786D8005A5DB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD2834EB221786D8005A5DB3 = {
+			isa = PBXGroup;
+			children = (
+				FD2834F6221786D8005A5DB3 /* IMC-2019 */,
+				FD28350E221786D8005A5DB3 /* IMC-2019Tests */,
+				FD283519221786D8005A5DB3 /* IMC-2019UITests */,
+				FD2834F5221786D8005A5DB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD2834F5221786D8005A5DB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD2834F4221786D8005A5DB3 /* IMC-2019.app */,
+				FD28350B221786D8005A5DB3 /* IMC-2019Tests.xctest */,
+				FD283516221786D8005A5DB3 /* IMC-2019UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD2834F6221786D8005A5DB3 /* IMC-2019 */ = {
+			isa = PBXGroup;
+			children = (
+				FD2834F7221786D8005A5DB3 /* AppDelegate.swift */,
+				FD2834F9221786D8005A5DB3 /* ViewController.swift */,
+				FD2834FB221786D8005A5DB3 /* Main.storyboard */,
+				FD283501221786D8005A5DB3 /* Assets.xcassets */,
+				FD283503221786D8005A5DB3 /* LaunchScreen.storyboard */,
+				FD283506221786D8005A5DB3 /* Info.plist */,
+				FD2834FE221786D8005A5DB3 /* IMC_2019.xcdatamodeld */,
+			);
+			path = "IMC-2019";
+			sourceTree = "<group>";
+		};
+		FD28350E221786D8005A5DB3 /* IMC-2019Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FD28350F221786D8005A5DB3 /* IMC_2019Tests.swift */,
+				FD283511221786D8005A5DB3 /* Info.plist */,
+			);
+			path = "IMC-2019Tests";
+			sourceTree = "<group>";
+		};
+		FD283519221786D8005A5DB3 /* IMC-2019UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD28351A221786D8005A5DB3 /* IMC_2019UITests.swift */,
+				FD28351C221786D8005A5DB3 /* Info.plist */,
+			);
+			path = "IMC-2019UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD2834F3221786D8005A5DB3 /* IMC-2019 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD28351F221786D8005A5DB3 /* Build configuration list for PBXNativeTarget "IMC-2019" */;
+			buildPhases = (
+				FD2834F0221786D8005A5DB3 /* Sources */,
+				FD2834F1221786D8005A5DB3 /* Frameworks */,
+				FD2834F2221786D8005A5DB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IMC-2019";
+			productName = "IMC-2019";
+			productReference = FD2834F4221786D8005A5DB3 /* IMC-2019.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD28350A221786D8005A5DB3 /* IMC-2019Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD283522221786D8005A5DB3 /* Build configuration list for PBXNativeTarget "IMC-2019Tests" */;
+			buildPhases = (
+				FD283507221786D8005A5DB3 /* Sources */,
+				FD283508221786D8005A5DB3 /* Frameworks */,
+				FD283509221786D8005A5DB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD28350D221786D8005A5DB3 /* PBXTargetDependency */,
+			);
+			name = "IMC-2019Tests";
+			productName = "IMC-2019Tests";
+			productReference = FD28350B221786D8005A5DB3 /* IMC-2019Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD283515221786D8005A5DB3 /* IMC-2019UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD283525221786D8005A5DB3 /* Build configuration list for PBXNativeTarget "IMC-2019UITests" */;
+			buildPhases = (
+				FD283512221786D8005A5DB3 /* Sources */,
+				FD283513221786D8005A5DB3 /* Frameworks */,
+				FD283514221786D8005A5DB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD283518221786D8005A5DB3 /* PBXTargetDependency */,
+			);
+			name = "IMC-2019UITests";
+			productName = "IMC-2019UITests";
+			productReference = FD283516221786D8005A5DB3 /* IMC-2019UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD2834EC221786D8005A5DB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Caelum;
+				TargetAttributes = {
+					FD2834F3221786D8005A5DB3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					FD28350A221786D8005A5DB3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FD2834F3221786D8005A5DB3;
+					};
+					FD283515221786D8005A5DB3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FD2834F3221786D8005A5DB3;
+					};
+				};
+			};
+			buildConfigurationList = FD2834EF221786D8005A5DB3 /* Build configuration list for PBXProject "IMC-2019" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD2834EB221786D8005A5DB3;
+			productRefGroup = FD2834F5221786D8005A5DB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD2834F3221786D8005A5DB3 /* IMC-2019 */,
+				FD28350A221786D8005A5DB3 /* IMC-2019Tests */,
+				FD283515221786D8005A5DB3 /* IMC-2019UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD2834F2221786D8005A5DB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD283505221786D8005A5DB3 /* LaunchScreen.storyboard in Resources */,
+				FD283502221786D8005A5DB3 /* Assets.xcassets in Resources */,
+				FD2834FD221786D8005A5DB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD283509221786D8005A5DB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD283514221786D8005A5DB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD2834F0221786D8005A5DB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD2834FA221786D8005A5DB3 /* ViewController.swift in Sources */,
+				FD283500221786D8005A5DB3 /* IMC_2019.xcdatamodeld in Sources */,
+				FD2834F8221786D8005A5DB3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD283507221786D8005A5DB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD283510221786D8005A5DB3 /* IMC_2019Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD283512221786D8005A5DB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD28351B221786D8005A5DB3 /* IMC_2019UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD28350D221786D8005A5DB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD2834F3221786D8005A5DB3 /* IMC-2019 */;
+			targetProxy = FD28350C221786D8005A5DB3 /* PBXContainerItemProxy */;
+		};
+		FD283518221786D8005A5DB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD2834F3221786D8005A5DB3 /* IMC-2019 */;
+			targetProxy = FD283517221786D8005A5DB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD2834FB221786D8005A5DB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD2834FC221786D8005A5DB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD283503221786D8005A5DB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD283504221786D8005A5DB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD28351D221786D8005A5DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD28351E221786D8005A5DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD283520221786D8005A5DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "IMC-2019/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.caelum.IMC-2019";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FD283521221786D8005A5DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "IMC-2019/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.caelum.IMC-2019";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FD283523221786D8005A5DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "IMC-2019Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.caelum.IMC-2019Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMC-2019.app/IMC-2019";
+			};
+			name = Debug;
+		};
+		FD283524221786D8005A5DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "IMC-2019Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.caelum.IMC-2019Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMC-2019.app/IMC-2019";
+			};
+			name = Release;
+		};
+		FD283526221786D8005A5DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "IMC-2019UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.caelum.IMC-2019UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "IMC-2019";
+			};
+			name = Debug;
+		};
+		FD283527221786D8005A5DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "IMC-2019UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.caelum.IMC-2019UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "IMC-2019";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD2834EF221786D8005A5DB3 /* Build configuration list for PBXProject "IMC-2019" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD28351D221786D8005A5DB3 /* Debug */,
+				FD28351E221786D8005A5DB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD28351F221786D8005A5DB3 /* Build configuration list for PBXNativeTarget "IMC-2019" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD283520221786D8005A5DB3 /* Debug */,
+				FD283521221786D8005A5DB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD283522221786D8005A5DB3 /* Build configuration list for PBXNativeTarget "IMC-2019Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD283523221786D8005A5DB3 /* Debug */,
+				FD283524221786D8005A5DB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD283525221786D8005A5DB3 /* Build configuration list for PBXNativeTarget "IMC-2019UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD283526221786D8005A5DB3 /* Debug */,
+				FD283527221786D8005A5DB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FD2834FE221786D8005A5DB3 /* IMC_2019.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD2834FF221786D8005A5DB3 /* IMC_2019.xcdatamodel */,
+			);
+			currentVersion = FD2834FF221786D8005A5DB3 /* IMC_2019.xcdatamodel */;
+			path = IMC_2019.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FD2834EC221786D8005A5DB3 /* Project object */;
+}
